@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="InformationParis2024css.css">
+        <title>
+                Informations sur le sport que procure Paris 2024
+        </title>
+    </head>
+    <body>
+        <header>
+            <nav id="menu" class="">
+                <button onclick="showMenu()" class="">
+                    <span id="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </button>
+                <label class="labmenu">Menu</label>
+                <ul id="menu-list" class="offcanvas-body">
+                    <li class="list-group-item"><a href="index.html">Accueil <span>→</span></a></li>
+                    <li class="list-group-item">
+                        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Notre rôle <span>☰</span>
+                        </button>
+                        <div class="collapse" id="collapseExample">
+                            <div class="card card-body">
+                                <ul>
+                                    <li class="dropdown-item"><a href="#">Lorem Ipsum <span>→</span></a></li>
+                                    <li class="dropdown-item"><a href="#">Lorem Ipsum <span>→</span></a></li>
+                                    <li class="dropdown-item"><a href="#">Lorem Ipsum <span>→</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item"><span></span></li>
+                    <li class="list-group-item"><a href="questionnaire.html">Remplir le questionnaire <span>→</span></a></li>
+                    <li class="list-group-item"><a href="#">Se recenser <span>→</span></a></li>
+                    <li class="list-group-item"><a href="#">Les déplacements près de chez moi <span>→</span></a></li>
+                    <li class="list-group-item"><span></span></li>
+                    <li class="list-group-item"><a href="co_admin.html">Création de tableaux de bord <span>→</span></a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1 class="titre">
+            Promouvoir les Bienfaits du Sport pour la Santé : Paris 2024 en Action
+        </h1>
+            <div class="block_texte">
+                <img class="tros_gros" src="mascottes-sports_60963524.png" alt="logo">
+                <p>Les bienfaits du sport s'étendent bien au-delà du simple bien-être physique, apportant des avantages aussi bien personnels que sociaux. Cependant, en France, près de 40% de la population reste à l'écart de cette source de bien-être, avec un adulte sur deux déclarant ne pas pratiquer d'activité physique. Cette tendance à la sédentarité touche également nos adolescents, classés au 119ème rang sur 146 pays par l'OMS en 2019 en termes de pratique physique. Les enfants, quant à eux, passent en moyenne plus de trois heures par jour devant un écran.</p>
+                    <p>Cette inactivité concerne tous les groupes de la population, affectant particulièrement les petites filles et les publics confrontés à des obstacles spécifiques, tels que les personnes en situation de handicap. Dans ce contexte, les priorités de Paris 2024 vont au-delà de l'organisation des Jeux : elles visent à raviver l'intérêt et les moyens de la pratique sportive, démontrer sa faisabilité et ses bienfaits, tout en soutenant ceux qui œuvrent en faveur du sport au quotidien.</p>
+                        <p>Selon Tony Estanguet, président de Paris 2024 : "Paris 2024 est une opportunité unique pour mobiliser tous les Français. Nous voulons faire équipe avec les athlètes, les enseignants, les éducateurs, les médecins, les responsables des ressources humaines, les urbanistes... et ainsi faire une place au sport dans nos quotidiens à tous."</p>
+                            <p>À tout âge, l'objectif est clair : 30 minutes d'activité physique quotidienne pour tous. Au-delà des avantages pour la santé, le sport est un outil éducatif et social exceptionnel, renforçant la confiance en soi et inculquant des valeurs essentielles telles que le respect, l'esprit d'équipe, l'équité, l'exigence et la persévérance.</p>
+                                <p>En partenariat avec le ministère de l'Éducation Nationale et cofinancée par l'Agence Nationale du Sport, l'initiative "30 minutes d'Activité Physique Quotidienne" (30'APQ) a évolué d'une expérimentation soutenue par Paris 2024 à un programme généralisé depuis la rentrée 2022. Ce programme contribue non seulement à garantir la moitié du temps d'activité physique bénéfique aux enfants, mais améliore également la concentration des élèves et le climat en classe.</p>
+                                    <p>La promotion d'un mode de vie actif en ville devient réalité grâce au concept de "design actif", popularisé par Paris 2024. Ce dernier intègre la notion de mouvement et de jeu dans la conception des espaces publics et des bâtiments, encourageant ainsi l'activité physique de manière libre et spontanée. Le design actif s'étend également aux bureaux, avec un guide personnalisé pour aider les entreprises partenaires de Paris 2024 à lutter contre la sédentarité au travail.</p>
+                                        <p>En partenariat avec le programme "Action Cœur de Ville" de l'Agence Nationale de la Cohésion des Territoires (ANCT), six villes pilotes sont devenues des démonstrateurs du design actif en France. Au total, le design actif se diffuse dans les collectivités labellisées Terres de Jeux 2024 grâce à un guide dédié et au soutien de l'Agence nationale du Sport ainsi que de nos entreprises partenaires.</p>
+                                            <p>En résumé, Paris 2024 s'engage activement à promouvoir les bienfaits du sport pour la santé à tous les niveaux de la société, mettant en œuvre des initiatives concrètes pour intégrer le sport dans la vie quotidienne des Français, que ce soit à l'école, en ville ou au travail.</p>
+            </div> 
+            <script src="scripts/script.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+    </body>
+</html>
+<!--Fait par PHAN Mika>
